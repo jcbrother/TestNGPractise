@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Suite]">
+  <listeners>
+    <listener class-name="com.testng.jc.CustomListener"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.testng.jc.SampleTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.testng.jc.SampleTest">
+        <methods>
+          <include name="testMethodTwo"/>
+          <include name="testMethodThree"/>
+        </methods>
+      </class> <!-- com.testng.jc.SampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [My Suite] -->
