@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="My Suite" parallel="false">
- <listeners>
+  <listeners>
     <listener class-name="com.testng.jc.CustomListener" />
+    <listener class-name="com.testng.jc.CustomReporter" />
   </listeners>
   <test name="Test">
     <classes>

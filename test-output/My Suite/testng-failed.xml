@@ -3,6 +3,7 @@
 <suite name="Failed suite [My Suite]">
   <listeners>
     <listener class-name="com.testng.jc.CustomListener"/>
+    <listener class-name="com.testng.jc.CustomReporter"/>
   </listeners>
   <test name="Test">
     <classes>
