@@ -10,5 +10,8 @@
 	<classpathentry kind="lib" path="lib/testng-remote.jar"/>
 	<classpathentry kind="lib" path="lib/testng-sources.jar"/>
 	<classpathentry kind="lib" path="lib/testng.jar"/>
+	<classpathentry kind="lib" path="lib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="lib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-dep-1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
